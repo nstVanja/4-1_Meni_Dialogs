@@ -95,7 +95,7 @@ private void btnKonvertuj_Click(object sender, EventArgs e)
     double vrednost;
     if (!double.TryParse(txtUnos.Text, out vrednost))
     {
-        MessageBox.Show("Unesite broj, na primer 12,5.", "Greška pri unosu",
+        MessageBox.Show("Unesite broj, na primer 12.5.", "Greška pri unosu",
             MessageBoxButtons.OK, MessageBoxIcon.Error);
         txtUnos.Focus();
         txtUnos.SelectAll();
