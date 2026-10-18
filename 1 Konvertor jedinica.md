@@ -87,7 +87,7 @@ Znak & ispred slova K znači da dugme možete pritisnuti i tasterima Alt+K.
 
 ### Korak 3. Dugme Konvertuj
 
-Dvoklik na dugme otvara rukovalac btnKonvertuj\_Click. Na ovom času pretvaramo samo kilometre u milje.
+Dvoklik na dugme otvara metodu za obradu događaja btnKonvertuj\_Click. Na ovom času pretvaramo samo kilometre u milje.
 
 ```csharp
 private void btnKonvertuj_Click(object sender, EventArgs e)
@@ -95,7 +95,7 @@ private void btnKonvertuj_Click(object sender, EventArgs e)
     double vrednost;
     if (!double.TryParse(txtUnos.Text, out vrednost))
     {
-        MessageBox.Show("Unesite broj, na primer 12.5.", "Greška pri unosu",
+        MessageBox.Show("Unesite broj, na primer 12,5.", "Greška pri unosu",
             MessageBoxButtons.OK, MessageBoxIcon.Error);
         txtUnos.Focus();
         txtUnos.SelectAll();
@@ -177,7 +177,7 @@ Glavni meni (MenuStrip) je traka na vrhu prozora sa grupama komandi, npr. Datote
 1. U kutiji sa alatima (Toolbox), grupa Menus & Toolbars, prevucite MenuStrip na formu. Traka se pojavi na vrhu forme, a ikonica menuStrip1 u traci ispod forme.
 2. Kliknite na polje „Type Here“ i upišite natpis stavke. Desno se dodaje sledeći meni, a ispod stavka podmenija.
 3. Za separator upišite samo znak - (minus).
-4. Izaberite stavku i u prozoru Properties prvo promenite Name, pa tek onda uradite dvoklik da dobijete rukovalac Click.
+4. Izaberite stavku i u prozoru Properties prvo promenite Name, pa tek onda uradite dvoklik da dobijete metodu za obradu događaja Click.
 
 ## Čas 2 – Izrada: meniji Konvertora
 
@@ -206,7 +206,7 @@ U meniju Konverzija i Kilometri i Kilogrami počinju slovom K. Zato je kod Kilog
 
 ### Korak 6. Izbor konverzije
 
-Četiri stavke konverzije rade isto: skinu kvačicu sa svih, stave je na izabranu i ispišu naziv. Zato taj posao pišemo jednom, u pomoćnoj metodi, koju pozivaju sva četiri rukovaoca.
+Četiri stavke konverzije rade isto: skinu kvačicu sa svih, stave je na izabranu i ispišu naziv. Zato taj posao pišemo jednom, u pomoćnoj metodi, koju pozivaju sve četiri metode za obradu događaja.
 
 ```csharp
 // Štiklira samo izabranu stavku i ispisuje naziv konverzije
@@ -250,11 +250,11 @@ private void mnuInciUCm_Click(object sender, EventArgs e)
 }
 ```
 
-Rukovalac Form1\_Load dobijate dvoklikom na prazan deo forme.
+Metodu za obradu događaja Form1\_Load dobijate dvoklikom na prazan deo forme.
 
 ### Korak 7. Nova verzija dugmeta Konvertuj
 
-Sada dugme proverava koja je stavka štiklirana i prema njoj bira formulu. Zamenite ceo rukovalac btnKonvertuj\_Click:
+Sada dugme proverava koja je stavka štiklirana i prema njoj bira formulu. Zamenite celu metodu za obradu događaja btnKonvertuj\_Click:
 
 ```csharp
 private void btnKonvertuj_Click(object sender, EventArgs e)
@@ -394,7 +394,7 @@ Izaberite txtUnos i u svojstvu ContextMenuStrip izaberite cmsUnos.
 
 ### Korak 11. Kod pomoćnog menija
 
-Napišite dva nova rukovaoca:
+Napišite dve nove metode za obradu događaja:
 
 ```csharp
 private void mnuObrisiUnos_Click(object sender, EventArgs e)
