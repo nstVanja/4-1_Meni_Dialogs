@@ -1,4 +1,4 @@
-# Materijal za učenike: Konvertor jedinica (Menu&Dialogs)
+# Konvertor jedinica (Menu&Dialogs)
 
 Oct 18, 2026 · @Vanja
 
