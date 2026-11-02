@@ -1,6 +1,6 @@
 # Lekcija: Otvaranje nove forme
 
-Programiranje, IV razred · Visual C# 2010 Express
+Nov 2, 2026 · @Vanja
 
 ## Šta učimo
 
