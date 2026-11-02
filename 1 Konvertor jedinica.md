@@ -1,4 +1,4 @@
-# Susret 1 – Materijal za učenike: Konvertor jedinica
+# Materijal za učenike: Konvertor jedinica (Menu&Dialogs)
 
 Oct 18, 2026 · @Vanja
 
