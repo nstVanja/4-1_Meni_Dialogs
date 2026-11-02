@@ -1,4 +1,4 @@
-# Traka sa sličicama i tekstom (Paleta komandi (ToolStrip) sa velikim ikonama)
+# Paleta komandi (ToolStrip) sa velikim ikonama
 
 Nov 2, 2026 · @Vanja
 
