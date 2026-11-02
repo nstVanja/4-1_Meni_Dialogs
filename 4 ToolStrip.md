@@ -1,6 +1,6 @@
-# Traka sa sličicama i tekstom (ToolStrip Menu)
+# Traka sa sličicama i tekstom (Paleta komandi (ToolStrip) sa velikim ikonama)
 
-Programiranje, IV razred · Visual C# 2010 Express · Paleta komandi (ToolStrip) sa velikim ikonama
+Nov 2, 2026 · @Vanja
 
 ## Šta pravimo
 
