@@ -1,4 +1,4 @@
-# Lekcija: Otvaranje nove forme
+# Otvaranje nove forme
 
 Nov 2, 2026 · @Vanja
 
