@@ -1,4 +1,4 @@
-# Susret 2 – Materijal za učenike: Uređivač teksta
+# Uređivač teksta
 
 Oct 18, 2026 · @Vanja
 
