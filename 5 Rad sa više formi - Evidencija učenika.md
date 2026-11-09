@@ -1,4 +1,4 @@
-## – Materijal za učenike: Evidencija učenika
+## Materijal za učenike: Evidencija učenika
 
 Oct 18, 2026 · @Vanja
 
