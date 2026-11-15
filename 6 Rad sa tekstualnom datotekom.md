@@ -1,4 +1,4 @@
-# Lekcija: Rad sa tekstualnom datotekom
+# Rad sa tekstualnom datotekom
 
 Programiranje, IV razred · Visual C# 2010 Express · Klasa File
 
