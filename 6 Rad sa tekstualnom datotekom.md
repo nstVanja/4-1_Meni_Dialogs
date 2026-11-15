@@ -6,7 +6,7 @@ Programiranje, IV razred · Visual C# 2010 Express · Klasa File
 
 Sve što program drži u promenljivama i kontrolama nestaje kada se zatvori; tekstualna datoteka (text file) čuva podatke i posle zatvaranja programa.
 
-Ako u ListBox dodate deset učenika i zatvorite program, sutra je lista prazna. Ako iste podatke upišete u datoteku, program ih pri sledećem pokretanju ponovo učita.
+Ako u ListBox dodate deset učenika, zatvorite program, ponovo ga otvorite, tada je lista prazna. Ako iste podatke upišete u datoteku, program ih pri sledećem pokretanju ponovo učita.
 
 Na ovom času pravimo aplikaciju **Ocene i prosek**:
 
