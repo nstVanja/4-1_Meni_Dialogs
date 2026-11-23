@@ -1,6 +1,6 @@
-# Rad sa grafikom u C# – materijal za učenike
+# Rad sa grafikom u C#
 
-Programiranje, 4. razred · Nov 23, 2026 · @Vanja
+Programiranje, 4. razred · Nov 23, 2026
 
 ## Uvod
 
