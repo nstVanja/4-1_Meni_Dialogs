@@ -1,4 +1,4 @@
-# Lekcija: MDI aplikacija
+# MDI aplikacija
 
 Programiranje, IV razred · Visual C# 2010 Express
 
